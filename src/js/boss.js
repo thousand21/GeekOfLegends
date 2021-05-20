@@ -1,3 +1,4 @@
+import enigme from './fonction.js';
 class Boss{
     constructor(nom,ptDeVie,ptDAttk){
         this.nom=nom;
@@ -41,5 +42,5 @@ class Boss{
           
     }
 }
-import enigme from './fonction.js';
+
 export default Boss;
